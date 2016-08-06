@@ -8,6 +8,7 @@
     "build": "./script/build.sh",
     "coverage": "istanbul cover _mocha -- --require ts-node/register test/**/*.ts",
     "coverage:open": "open coverage/lcov-report/index.html",
+    "postinstall": "typings install",
     "test": "mocha --require ts-node/register test/**/*.ts"
   },
   "files": [
