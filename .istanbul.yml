@@ -1,0 +1,10 @@
+instrumentation:
+  include-all-sources: true
+  es-modules: true
+  excludes:
+    - build/**/*.d.ts
+    - dist/**/*.d.ts
+    - typings/**/*.d.ts
+  extensions:
+    - .tsx
+    - .ts
