@@ -309,4 +309,4 @@ function range_iterator (start, stop, step) {
     var _a;
 }
 
-export { enumerate, range_iterator as range };
+export { enumerate, range_iterator as range, Enumerable };

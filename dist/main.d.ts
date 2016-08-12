@@ -3,6 +3,7 @@
 declare module 'enumerables' {
     export { default as enumerate } from "enumerables/enumerate";
     export { default as range } from "enumerables/range_iterator";
+    export { default as Enumerable } from "enumerables/enumerable";
 }
 
 declare module 'enumerables/enumerate' {

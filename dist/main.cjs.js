@@ -315,3 +315,4 @@ function range_iterator (start, stop, step) {
 
 exports.enumerate = enumerate;
 exports.range = range_iterator;
+exports.Enumerable = Enumerable;
