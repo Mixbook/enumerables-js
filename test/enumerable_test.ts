@@ -119,6 +119,15 @@ describe("Enumerable", () => {
       let expected = [1, 2, 3];
       expect(enumerable.toArray()).to.eql(expected);
     });
+
+    it("should return a new array for each call", () => {
+      let enumerable = enumerate([1, 2, 3]);
+      let result1 = enumerable.toArray();
+      let result2 = enumerable.toArray();
+      expect(result1.length).to.eql(3);
+      expect(result2.length).to.eql(3);
+      expect(result1).to.not.eq(result2);
+    });
   });
 
   describe("#skip()", () => {
